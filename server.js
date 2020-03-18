@@ -12,7 +12,7 @@ const Note = require('./lib/Note');
 // Sets up the Express App
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Sets up the Express App to handle data parsing
 
