@@ -19,20 +19,18 @@ Run the application
 ```node.js
 node index.js
 ```
+
+## User Story
+As a user, I want to be able to write and save notes, to be able to delete notes I've written before, so I can organize my thoughts and keep track of tasks I need to complete
+
 ## Technologies Used
-* HTM/CSS
+* HTML
+* CSS/Bootstrap
 * JavaScript
 * NodeJS
-* Express
-* Express-Handlebars
-* MySQL
 
 ## Dependencies
-* Express 4.17.1
-* Express-handlebars 3.1.0
-* mysql 2.18.1
+* express 4.16.4
+* uuidv1 1.6.14
 
-## What I learned 
-
-This application used a homemade ORM to manage the MySQL queries. Which made queries so much more efficient. It was great to use handlebars to generate the html dynamically. It was just fun to be able to use all of the pieces we have learned along the way to put them all together.  
   
